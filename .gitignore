@@ -1,0 +1,17 @@
+# Ignore everything except for .jpg, .jpeg, .png and .webp files
+
+# Ignore all files
+*
+
+# Allow Git to recurse into directories so we can whitelist files inside them
+!*/
+
+# Whitelist image file types anywhere in the tree
+!**/*.jpg
+!**/*.jpeg
+!**/*.png
+!**/*.webp
+
+# Keep the .gitignore itself tracked
+!.gitignore
+
